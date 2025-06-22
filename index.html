@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>rugsbeniourain</title>
+    <link rel="canonical" href="index.html" />
+
+    <meta name="description" content="" />
+    <meta name="keywords" content="rugsbeniourain" />
+    <link rel="icon" href="favicon.png" type="image/x-icon" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=62dc22846895ac00191ea9d1&product=inline-share-buttons" async="async"></script>
+
+    <!-- Simple line icons-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+
+    <!-- Favicon-->
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="home/css/styles.css" rel="stylesheet" /> 
+    <style>
+        .bg-header {
+        background-color: rgba(0, 0, 0, 0.6) !important;
+        }
+
+        .bg-footer {
+            --bs-bg-opacity: 1;
+        background-image: linear-gradient( #000000, #000000) !important;
+        }
+
+        .header-text-color {
+        color: #ffffff ;
+        }
+
+        .footer-text-color {
+        color: #ffffff ;
+        }
+
+        .footer-text-color .navbar-brand {
+        color: #ffffff ;
+        }
+
+        .navbar-nav .active {
+        border-bottom: solid 1px #ffffff !important;
+        }
+
+        .top-area {
+            position: relative;
+            opacity: 1;
+            height: 400px;
+            /* background-color: rgba(0, 0, 0, 0.5) !important; */
+        }
+
+        .transparent-layer {
+            position: absolute;
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5) !important;
+        }
+
+        .top-area::before {
+            content: ' ';
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            background-image: url(banner_image.png);
+            background-repeat: no-repeat;
+            background-position: 50% 0;
+            background-size: cover;
+        }
+
+        .top-area>div {
+            position: relative;
+        }
+
+        .head-title {
+            font-size: calc(1.75rem + 1.5vw);
+            font-weight: bolder;
+            color: #fff;
+        }
+
+        .head-tagline {
+            font-size: calc(.5rem + 1.5vw);
+            color: #fff;
+        }
+
+        .header-contents {
+            margin: 0 auto;
+            text-align: center;
+        }
+        body {
+                    background-color: #f7f7f7;
+                }
+
+                .transparent-layer{
+                        background-color: rgba(0, 0 ,0, 0.6) !important;
+
+                    }
+                    .header-transparent-layer {
+                    background-color: rgba(0, 0 ,0, 0.6) !important;
+
+                    }
+
+                .all-article-link{
+                    background-color:  #ffffff !important;
+                    color:  #d72a6d !important;
+                    border: 1px solid #dedede !important;
+                }
+
+                .bg-dark, .bg-header, .bg-footer, .dropdown-content2 {
+                    background-color:  #090806 !important;
+                    background-image: none;
+                }
+
+
+
+                .bg-dark, .navbar-brand, .lmcy_hfollow, .bottom_footer_menu_text, .bottom_footer_menu_text li a{
+                    color: #ffffff !important;
+                }
+
+                .lmcy_logo_n {
+                    color: #ffffff !important;
+                }
+                .lmcy_header_magazine_style.lmcy_cus_top_share.header_layout_style3_custom .social_icon_header_top li a i{
+                color: #ffffff !important;
+                }
+
+                .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
+                    color: #ffffff;
+                }
+
+                footer .social-link {
+                    color: #090806 !important;
+                    background-color: #ffffff !important;
+                }
+
+                .navbar-dark .navbar-nav .nav-link,
+                .dropdown-content a,
+                footer.py-5.bg-dark.text-center p,
+                footer.py-5.bg-dark.text-center a,
+                footer.py-5.bg-dark.text-center a:hover,
+                footer.py-5.bg-dark.text-center a:focus,
+                footer.py-5.bg-dark.text-center a:focus-visible, .header-text-color {
+                    color: #ffffff;
+                }
+
+                .navbar-dark .navbar-nav .nav-link:hover,
+                .bd_left:hover,
+                .dropdown-content li:hover,
+                .navbar-dark .navbar-nav .nav-link:focus {
+                    color: #f7f7f7;
+                }
+                .head-title {
+                    color: #ffffff !important;
+                }
+                .head-tagline {
+                    color: #ffffff;
+                }
+
+                footer.py-5.bg-dark.text-center, .footer-text-color {
+                    color: #ffffff !important;
+                }
+
+                .text-theme,
+                a.text-theme:focus,
+                a.text-theme:hover {
+                    color: #d72a6d !important;
+                }
+
+                .btn-banner-theme {
+                    color: #ffffff;
+                    background-color: #d72a6d;
+                    border-color: #d72a6d;
+                }
+
+                .btn-banner-theme:hover {
+                    color: #ffffff;
+                    background-color: #c83c74;
+                }
+
+                .btn-theme {
+                    color: #ffffff;
+                    background-color: #d72a6d;
+                    border-color: #d72a6d;
+                }
+
+                .btn-theme:hover {
+                    color: #ffffff;
+                    background-color: #c83c74;
+                }
+
+
+                .card-title, .card-heading {
+                    color: #121212;
+                }
+
+                .main-heading {
+                    color: #121212;
+                }
+
+                .card-text {
+                    color: #121212!important;
+                    height: auto !important;
+                    min-height: 140px;
+                }
+.card-text p {
+                    color: #121212!important;
+                   
+                }
+                .article-card-text {
+                    color:  #212529;
+                   
+                }
+.article-card-text * {
+                    color: #212529 !important;
+                   background: none !important;
+                }
+                .article-container {
+                    background-color: #ffffff;
+                    padding : 10px;
+
+                }
+
+                .cards-container .card {
+                    background-color: #ffffff !important;
+                    border: 2px solid #eaeaea !important;
+                    border-radius: 14px;
+                }
+
+                .cards-container .card .card-title {
+                    color: #121212;
+                }
+
+                .cards-container .card .card-text {
+                    color: #000000!important;
+                }
+                .article-info {
+                    color: #9a9d9f;
+                }
+    </style>
+</head>
+
+<body>
+<!-- Responsive navbar-->
+<div class="top-area">
+    <div class="transparent-layer">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-header">
+            <div class="container px-5">
+                <a style="color: inherit; text-decoration: inherit;" href="index.html">
+                        <span class="navbar-brand">
+                        <img style="max-height:30px; height: 30px !important; display: inherit " src="logo.png" onerror="this.remove()">
+                    </span>
+                    <span class="navbar-brand header-text-color">rugsbeniourain</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto  mb-2 mb-lg-0">
+                        <li class="nav-item {{home_active}}">
+                            <a class="nav-link header-text-color" href="index.html">Home</a>
+                        </li>
+                        <div class="nav-item {{service_active}} dropdown" style="display:">
+                            <button class="header-text-color dropbtn is-mobile">Pages</button>
+                            <a class="nav-link header-text-color dropbtn is-desktop" href="pages.html">Pages</a>
+                            <div class="dropdown-content">
+                                <div class="dropdown-content2">
+                                    <li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="best-interior-styles-for-beni-ourain-rugs.html">Best interior styles for Beni Ourain rugs
+                                                                                        <span class="border-menu"></span></a></li><li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="benefits-of-natural-wool-rugs.html">Benefits of natural wool rugs
+                                                                                        <span class="border-menu"></span></a></li><li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="what-makes-beni-ourain-rugs-special.html">What makes Beni Ourain rugs special
+                                                                                        <span class="border-menu"></span></a></li><li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="how-to-clean-and-care-for-beni-ourain-rugs.html">How to clean and care for Beni Ourain rugs
+                                                                                        <span class="border-menu"></span></a></li><li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="beni-ourain-rugs-blog.html">Beni Ourain rugs blog
+                                                                                        <span class="border-menu"></span></a></li><li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="guide-to-vintage-beni-ourain-carpets.html">Guide to vintage Beni Ourain carpets
+                                                                                        <span class="border-menu"></span></a></li><li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="how-to-decorate-with-beni-ourain-rugs.html">How to decorate with Beni Ourain rugs
+                                                                                        <span class="border-menu"></span></a></li><li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="hand-knotted-moroccan-rugs-history.html">Hand-knotted Moroccan rugs history
+                                                                                        <span class="border-menu"></span></a></li><li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="authentic-moroccan-wool-rugs.html">Authentic Moroccan wool rugs
+                                                                                        <span class="border-menu"></span></a></li><li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="traditional-amazigh-weaving-methods.html">Traditional Amazigh weaving methods
+                                                                                        <span class="border-menu"></span></a></li>
+                                </div>
+                            </div>
+                        </div>
+                        <li class="nav-item {{blog_active}}">
+                            <a class="nav-link header-text-color" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item {{contact_active}}" style="display: ">
+                            <a class="nav-link header-text-color" href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ms-4 mb-2 mb-lg-0" style="display: none !important;">
+                        <li class="nav-item" style="display: inline-block">
+                            <a class="nav-link header-text-color" target="_blank" href="https://web.facebook.com/kechart/?_rdc=1&_rdr#">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item" style="display: none">
+                            <a class="nav-link header-text-color" target="_blank" href="">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item" style="display: inline-block">
+                            <a class="nav-link header-text-color" target="_blank" href="https://www.instagram.com/kechart_brand/#">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item" style="display: inline-block">
+                            <a class="nav-link header-text-color" target="_blank" href="https://www.pinterest.com/kechartdotcom/">
+                                <i class="fa-brands fa-pinterest"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item" style="display: inline-block">
+                            <a class="nav-link header-text-color" target="_blank" href="https://www.youtube.com/@kechart2001">
+                                <i class="fa-brands fa-youtube"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+
+        <!-- Heading Row-->
+        <div class="gx-0 align-items-center py-lg-6">
+            <div class="header-contents">
+                <h1 class="head-title">rugsbeniourain</h1>
+                <h4 class="head-tagline">33, Shelton Street, Covent Garden, London, WC2H 9JQ, UNITED KINGDOM,London,GB,WC2H 9JQ</h4>
+            </div>
+            <div class="header-contents">
+                <a class="btn btn-banner-theme btn-md mt-2" style="display: " target="_blank" href="tel:0698119123">Call Now</a>
+                <a class="btn btn-banner-theme btn-md mt-2" style="display: " target="_blank" href="mailto:vermaakjackdouglas@gmail.com">Email Now</a>
+                <button id="myBtn" class="btn btn-banner-theme btn-md mt-2" style="display: none">Get Directions</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container article-container">
+    <header class="py-2 border-bottom mb-4" style="display: none">
+        <div class="ql-editor p-4 article-card-text" id="sitewide-header">
+            
+        </div>
+    </header>
+
+    <div class="row gx-4 gx-lg-5 align-items-center pt-lg-5 card-text" style=" display: none ">
+        <div class="col-lg-3">
+            <h2 class="font-weight-light">Working Hours</h2>
+        </div>
+        <div class="col-lg-5">
+            <h5>Today: <span class="text-primary today_hours main-heading">{{today_time}}</span></h5>
+        </div>
+    </div>
+    <div class="row gx-4 gx-lg-5 align-items-center card-text py-lg-4" style=" display: none ">
+        <div class="col-lg-4">
+            <table width="100%">
+                <tr>
+                    <td width="30%">
+                        <h5 class="text-gray">Mon:</h5>
+                    </td>
+                    <td>
+                        <h5 class="working_hours">{{monday_time}}</h5>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="col-lg-4">
+            <table width="100%">
+                <tr>
+                    <td width="30%">
+                        <h5 class="text-gray">Tue:</h5>
+                    </td>
+                    <td>
+                        <h5 class="working_hours">{{tuseday_time}}</h5>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="col-lg-4">
+            <table width="100%">
+                <tr>
+                    <td width="30%">
+                        <h5 class="text-gray">Wed:</h5>
+                    </td>
+                    <td>
+                        <h5 class="working_hours">{{wednesday_time}}</h5>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="col-lg-4">
+            <table width="100%">
+                <tr>
+                    <td width="30%">
+                        <h5 class="text-gray">Thur:</h5>
+                    </td>
+                    <td>
+                        <h5 class="working_hours">{{thursday_time}}</h5>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="col-lg-4">
+            <table width="100%">
+                <tr>
+                    <td width="30%">
+                        <h5 class="text-gray">Fri:</h5>
+                    </td>
+                    <td>
+                        <h5 class="working_hours">{{friday_time}}</h5>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="col-lg-4">
+            <table width="100%">
+                <tr>
+                    <td width="30%">
+                        <h5 class="text-gray">Sat:</h5>
+                    </td>
+                    <td>
+                        <h5 class="working_hours">{{staturday_time}}</h5>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="col-lg-4">
+            <table width="100%">
+                <tr>
+                    <td width="30%">
+                        <h5 class="text-gray">Sun:</h5>
+                    </td>
+                    <td>
+                        <h5 class="working_hours">{{sunday_time}}</h5>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="py-2 border-bottom mb-2" style="display: none">
+        <div class="ql-editor article-card-text">
+            
+        </div>
+    </div>
+
+    <div class="row gx-4 gx-lg-5 align-items-center py-lg-5" style="display:">
+        <div class="col-lg-12 py-lg-2">
+            <h3 class="main-heading">Pages</h3>
+        </div>
+
+        <div class="col-lg-4">
+                <a href="best-interior-styles-for-beni-ourain-rugs.html"  style="text-decoration: none;color: inherit;" >
+                    <img class="img-fluid rounded mb-4 mb-lg-0" src="https://pub-817e745bae054e7a9d65afbddbf23489.r2.dev/rugsbeniourain-5594_MTUzMzU=/best-interior-styles-for-beni-ourain-rugs-6715911.jpg?key=zWH4fV" alt="Best interior styles for Beni Ourain rugs" />
+                </a>
+            </div>
+                <div class="col-lg-8">
+                    <a href="best-interior-styles-for-beni-ourain-rugs.html"  style="text-decoration: none;color: inherit;">
+                        <div class="d-flex align-items-center title-box">
+                            <h2 class="card-title">Best interior styles for Beni Ourain rugs</h2>
+                        </div>
+                        <p class="card-text py-lg-2">Beni Ourain rugs effortlessly enhance various interior styles, making them a sought-after choice for interior designers and decor enthusiasts alike. The best interior styles for Beni Ourain rugs encompass a blend of traditional and modern aesthetics,......
+                            <a style="text-decoration:none" href="best-interior-styles-for-beni-ourain-rugs.html" class="text-theme">Read More</a>
+                        </p>
+
+                    </a>
+                </div>
+                <div class="col-md-12">
+                    <hr/>
+                </div><div class="col-lg-4">
+                <a href="benefits-of-natural-wool-rugs.html"  style="text-decoration: none;color: inherit;" >
+                    <img class="img-fluid rounded mb-4 mb-lg-0" src="https://pub-817e745bae054e7a9d65afbddbf23489.r2.dev/rugsbeniourain-5594_MTUzMzU=/benefits-of-natural-wool-rugs-6715901.jpg?key=s2LupL" alt="Benefits of natural wool rugs" />
+                </a>
+            </div>
+                <div class="col-lg-8">
+                    <a href="benefits-of-natural-wool-rugs.html"  style="text-decoration: none;color: inherit;">
+                        <div class="d-flex align-items-center title-box">
+                            <h2 class="card-title">Benefits of natural wool rugs</h2>
+                        </div>
+                        <p class="card-text py-lg-2">Natural wool rugs embody a rich tradition of craftsmanship, with roots deeply embedded in the history of wool as a favored textile. Rug making has evolved over centuries, utilizing new wool harvested from sheep's wool to create durable and versatile ......
+                            <a style="text-decoration:none" href="benefits-of-natural-wool-rugs.html" class="text-theme">Read More</a>
+                        </p>
+
+                    </a>
+                </div>
+                <div class="col-md-12">
+                    <hr/>
+                </div><div class="col-lg-4">
+                <a href="what-makes-beni-ourain-rugs-special.html"  style="text-decoration: none;color: inherit;" >
+                    <img class="img-fluid rounded mb-4 mb-lg-0" src="https://pub-817e745bae054e7a9d65afbddbf23489.r2.dev/rugsbeniourain-5594_MTUzMzU=/what-makes-beni-ourain-rugs-special-6715891.jpg?key=i2Kwes" alt="What makes Beni Ourain rugs special" />
+                </a>
+            </div>
+                <div class="col-lg-8">
+                    <a href="what-makes-beni-ourain-rugs-special.html"  style="text-decoration: none;color: inherit;">
+                        <div class="d-flex align-items-center title-box">
+                            <h2 class="card-title">What makes Beni Ourain rugs special</h2>
+                        </div>
+                        <p class="card-text py-lg-2">What makes Beni Ourain rugs special lies in their rich history and cultural significance rooted in the Berber tribes of Morocco. These rugs, often referred to as Berber carpets, showcase a unique blend of traditional craftsmanship and contemporary ae......
+                            <a style="text-decoration:none" href="what-makes-beni-ourain-rugs-special.html" class="text-theme">Read More</a>
+                        </p>
+
+                    </a>
+                </div>
+                <div class="col-md-12">
+                    <hr/>
+                </div><div class="col-lg-4">
+                <a href="how-to-clean-and-care-for-beni-ourain-rugs.html"  style="text-decoration: none;color: inherit;" >
+                    <img class="img-fluid rounded mb-4 mb-lg-0" src="https://pub-817e745bae054e7a9d65afbddbf23489.r2.dev/rugsbeniourain-5594_MTUzMzU=/how-to-clean-and-care-for-beni-ourain-rugs-6715881.jpg?key=Qm14om" alt="How to clean and care for Beni Ourain rugs" />
+                </a>
+            </div>
+                <div class="col-lg-8">
+                    <a href="how-to-clean-and-care-for-beni-ourain-rugs.html"  style="text-decoration: none;color: inherit;">
+                        <div class="d-flex align-items-center title-box">
+                            <h2 class="card-title">How to clean and care for Beni Ourain rugs</h2>
+                        </div>
+                        <p class="card-text py-lg-2">Beni Ourain rugs, known for their exquisite craftsmanship and rich cultural heritage, require special attention for proper care and maintenance. Learning how to clean and care for Beni Ourain rugs is essential to preserving their beauty and longevity......
+                            <a style="text-decoration:none" href="how-to-clean-and-care-for-beni-ourain-rugs.html" class="text-theme">Read More</a>
+                        </p>
+
+                    </a>
+                </div>
+                <div class="col-md-12">
+                    <hr/>
+                </div>
+
+        <div class="col-md-12">
+            <a href="pages.html" style="text-decoration: none">
+                <div class="all-article-link" style="padding-top:20px;padding-bottom:20px;border: 1px solid #bdbdbd; border-radius: 3px; height: 70px; text-align:center">
+                    <h4 class="">View All Pages</h4>
+                </div>
+            </a>
+        </div>
+    </div>
+
+
+    <div class="row gx-4 gx-lg-5 align-items-center py-lg-5 cards-container">
+        <div class="col-lg-12 py-lg-2">
+            <h3 class="font-weight-light main-heading">rugsbeniourain: Latest Blog Posts</h3>
+        </div>
+
+
+        <div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="how-to-vacuum-beni-ourain-rug.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-22</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Vermaak Jack</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">How to vacuum Beni Ourain rug?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">When vacuuming a Beni Ourain rug, it is crucial not to use a vacuum with a beater bar or rotating bristles. These mechanisms can pull at the fibers, leading to fraying and damage over time. Instead, opt for a vacuum designed for delicate rugs or one ......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="how-to-vacuum-beni-ourain-rug.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="how-to-style-a-moroccan-rug.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-22</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Vermaak Jack</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">How to style a Moroccan rug?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Moroccan rugs often serve as vibrant focal points in any room, creating a unique atmosphere distinct to Moroccan culture. To enhance their beauty, it’s essential to choose furniture that complements their intricate patterns and rich colors. Wooden ......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="how-to-style-a-moroccan-rug.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="how-do-you-match-a-rug-to-decor.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-22</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Vermaak Jack</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">How do you match a rug to decor?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">When choosing a rug, it's essential to consider the primary functions of the space it will occupy. High-traffic areas, such as hallways or living rooms, benefit from durable materials that can withstand wear while maintaining their aesthetic appeal. ......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="how-do-you-match-a-rug-to-decor.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="which-rugs-are-the-best-in-the-world.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-22</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Vermaak Jack</span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Which rugs are the best in the world?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">As environmental consciousness continues to rise, consumers are increasingly drawn to eco-friendly rug choices that minimize harm to the planet. Options such as rugs made from organic cotton, jute, and wool are becoming popular due to their biodegrad......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="which-rugs-are-the-best-in-the-world.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div>
+        <div class="col-md-12">
+            <a href="blog.html" style="text-decoration: none">
+                <div class="all-article-link" style="padding-top:20px;padding-bottom:20px;border: 1px solid #bdbdbd; border-radius: 3px; height: 70px; text-align:center">
+                    <h4 class="">View All Blog Posts</h4>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="ql-editor mb-4 article-card-text" style="display:none">
+        
+    </div>
+    <div class="pb-5 ql-editor article-card-text" id="sitewide-footer" style="display:none">
+        
+    </div>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px; display: none">
+                <iframe src="" frameborder="0" style="border:0; " allowfullscreen></iframe>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Footer-->
+
+<footer class="py-5 bg-dark text-center ">
+
+    <div class="container">
+        <div class="row  py-lg-3">
+            <div class="col-md-7">
+                <table style="text-align: left">
+                    <tr>
+                        <td width="15%">
+                            <h2>
+                                <a style="color: inherit;text-decoration: auto;" href="index.html"><img style="max-height:30px; height: 30px !important; display: inherit " src="logo.png" onerror="this.remove()"></a>
+                            </h2>
+                        </td>
+                        <td style="text-align: left" class="">
+                            <h2><a style="text-decoration: auto;" href="index.html">rugsbeniourain</a></h2>
+                        </td>
+                    </tr>
+                    <tr style="display: ">
+                        <td width="15%"><i class="fa fa-map-marker-alt "></i></td>
+                        <td style="text-align: left" class="">33, Shelton Street, Covent Garden, London, WC2H 9JQ, UNITED KINGDOM,London,GB,WC2H 9JQ</td>
+                    </tr>
+                    <tr style="display: ">
+                        <td width="15%"><i class="fa fa-phone "></i></td>
+                        <td style="text-align: left" class=" ">0698119123</td>
+                    </tr>
+                    <tr style="display: ">
+                        <td width="15%"><i class="fa fa-envelope"></i></td>
+                        <td style="text-align: left" class="">vermaakjackdouglas@gmail.com</td>
+                    </tr>
+                </table>
+
+            </div>
+
+
+            <div class="col-md-4">
+                <table class="float-start float-md-end" style="margin-left: 40px;">
+                    <tr>
+                        <td style="text-align: left;display: inherit"><a class="" style="text-decoration: none" href="terms.html">Terms of Use</a></td>
+                    </tr>
+
+                    <tr>
+                        <td style="text-align: left;display: inherit"><a class="" style="text-decoration: none" href="privacy.html">Privacy Policy</a></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left;display: inherit"><a class="" style="text-decoration: none" href="sitemap.html">Sitemap</a></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left;display: "><a class="" style="text-decoration: none" href="contact.html">Contact Us</a></td>
+                    </tr>
+                </table>
+
+            </div>
+        </div>
+    </div>
+
+    <ul class="mt-3 mb-3" style="display: none !important">
+        <li class="list-inline-item" style="display: inline-block">
+            <a style="text-decoration: none" class=" mr-3" target="_blank" href="https://web.facebook.com/kechart/?_rdc=1&_rdr#"><i class="fa-2x icon-social-facebook"></i></a>
+        </li>
+        <li class="list-inline-item" style="display: none">
+            <a style="text-decoration: none" class=" mr-3" target="_blank" href=""><i class="fa-2x icon-social-twitter"></i></a>
+        </li>
+        <li class="list-inline-item" style="display: inline-block">
+            <a style="text-decoration: none" class="   mr-3" target="_blank" href="https://www.instagram.com/kechart_brand/#"><i class="fa-2x icon-social-instagram"></i></a>
+        </li>
+        <li class="list-inline-item" style="display: inline-block">
+            <a style="text-decoration: none" class=" mr-3" target="_blank" href="https://www.pinterest.com/kechartdotcom/"><i class="fa-2x icon-social-pinterest"></i></a>
+        </li>
+        <li class="list-inline-item" style="display: inline-block">
+            <a style="text-decoration: none" class="  mr-3" target="_blank" href="https://www.youtube.com/@kechart2001"><i class="fa-2x icon-social-youtube"></i></a>
+        </li>
+    </ul>
+
+    <div class="">
+        <hr/>
+    </div>
+    <div class="container">
+        <p class="m-0 text-center ">Copyright &copy; rugsbeniourain. All Rights Reserved.</p>
+    </div>
+</footer>
+<!-- Bootstrap core JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Core theme JS-->
+<script src="home/js/scripts.js"></script>
+<script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
+
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks the button, open the modal
+    btn.onclick = function() {
+        modal.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+<script>
+    const url = window.location.href;
+    let domain = (new URL(url));
+    let hostname = domain.hostname;
+    let pathname = domain.pathname.split('/');
+    let protocol = domain.protocol;
+    let domain_url =  protocol +'//'+hostname+'/';
+    if(pathname.length > 2){
+        domain_url =  domain_url +pathname.slice(1,pathname.length - 1).join('/')+'/'+document.querySelectorAll('[rel="canonical"]')[0].getAttribute('href');
+    }else{
+        domain_url =  domain_url +document.querySelectorAll('[rel="canonical"]')[0].getAttribute('href');
+    }
+    document.querySelectorAll('[rel="canonical"]')[0].setAttribute('href', domain_url);
+</script>
+</body>
+
+</html>
